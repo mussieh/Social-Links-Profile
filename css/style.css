@@ -1,0 +1,56 @@
+/**************************/
+/* PROFILE SECTION */
+/**************************/
+.img-avatar {
+    width: 7.6rem;
+    height: 7.6rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+.profile-links-section {
+    padding: 3.4rem;
+    width: 34.7rem;
+    height: 54.9rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.profile-name {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.profile-location {
+    font-size: 1rem;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 2.5rem;
+}
+
+.profile-description {
+    color: rgb(185, 184, 185);
+}
+
+a {
+    display: flex;
+    color: rgb(233, 232, 232);
+    font-weight: 600;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 27.6rem;
+    height: 4rem;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5rem;
+    margin-top: 1.6rem;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    color: rgb(33, 53, 9);
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
